@@ -1,0 +1,829 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Tech Company </title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {margin:0;font-family:Arial}
+
+
+.topnav {
+  overflow: hidden;
+  background-color: white;
+  
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.active {
+  background-color: #ADD8E6;
+  color: black;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+.demodown {
+    float: left;
+    overflow: hidden;
+}
+
+.demodown .demobtn {
+    font-size: 17px;    
+    border: none;
+    outline: none;
+    color: black;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.demodown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.demodown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.topnav a:hover, .demodown:hover .demobtn {
+  background-color:#000000;
+  color: white;
+}
+
+.demodown-content a:hover {
+    background-color:#f9f9f9;
+    color: black;
+}
+
+.demodown:hover .demodown-content {
+    display: block;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child), .demodown .demobtn {
+    display: none;
+  }
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .topnav.responsive .demo {float: none;}
+  .topnav.responsive .demo-content {position: relative;}
+  .topnav.responsive .demo.demopbtn {
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+}
+
+body{margin:0px;
+}
+.header {
+background: white;}
+.header {display: block;
+margin:0px;
+padding: 0px;
+height:70px;}
+
+.btn {background: black;
+color:white;
+font-weight:bold;
+width: 120px;
+height:30px;
+position: absolute;
+right: 400px;
+top:15px;
+}
+.btn:hover {
+background:#d9d9d9;}
+
+.btn1 {background: teal  ;
+width: 150px;
+height: 50px;
+position:  static;
+right: 180px;
+top: 340px;
+color:white;
+text-align: center;
+
+left: 80%;
+transform: translate(250%, 0);
+
+}
+.btn1:hover {
+background:black;}
+a {text-decoration:none;}
+
+.btn2{background: #333333;
+width: 150px;
+height:50px;
+color:white;
+text-align: center;
+position: relative;
+left: 50%;
+transform: translate(-90%, 0);
+
+
+}
+.btn2:hover {
+background:black;
+}
+
+
+
+.sol{display: block;
+padding:10px;
+height:800px;
+margin-top:-70px;}
+
+
+
+
+
+.btn3{background: #333333;
+width: 230px;
+height:40px;
+color:white;}
+
+.btn4{background: #FFCC99;
+width: 130px;
+height:40px;
+color:white;}
+
+
+.blok {float: left; 
+        font-size:20px;
+        width: 220px;
+		color:black;
+        margin-right: 10px;
+        text-align: center; 
+		float: left;
+        margin-top: 17px;
+}
+
+.logo {float: left;
+        margin-top: 10px;
+		margin-left: 100px;
+		color:white;
+        margin-right: 10px;
+        text-align: center;
+		font-size:15px;
+        width: 220px;
+		}
+		
+		
+.agency{display: block;
+color:black;
+margin:0px;
+padding:120px;
+height:700px;
+background-image:url("https://previews.123rf.com/images/peshkov/peshkov1604/peshkov160400353/55888678-sideview-of-office-table-with-laptop-glasses-and-other-items-on-moscow-city-background.jpg");}
+
+
+	
+	   
+	.inn{margin-left:710px;
+	text-align:center;
+	margin:10px;
+padding:30px;
+font-size:20px;
+}
+.bent{float: left; 
+margin-left:100px;
+padding:30px;
+width:900px;
+height:200px;
+font-size:20px;
+background:#ffffff;}
+
+.creat{ float: left; 
+margin-left:50px;
+margin-top:-120px;
+padding:30px;
+width:250px;
+height:200px;
+font-size:20px;
+background:#ffffff;
+color:black ;}
+
+.creat1{ float: left; 
+margin-left :50px;
+margin-top:-120px;
+padding:30px;
+width:250px;
+height:200px;
+font-size:20px;
+background:#ffffff;
+color:black ;}
+
+
+.111{ display:block;
+margin:0px;
+padding: 0px;
+height:200px;
+}
+
+
+.img{float: left; 
+margin-left:200px;
+margin-top:50px;
+padding:30px;
+width:250px;
+height:200px;}
+
+.img1{float: left; 
+margin-left:200px;
+margin-top:-200px;
+padding:30px;
+width:250px;
+height:200px;}
+
+.who{ 
+margin-top:-100px;
+}
+
+</style>
+
+</head>
+<body>
+
+
+
+
+<div class="topnav" id="myTopnav">
+  <a href="#home" class="active">Home</a>
+  <a href="#about Us">About Us</a>
+  <a href="#contact">Contact</a>
+  <div class="demodown">
+    <button class="demobtn">Demo 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="demodown-content">
+      <a href="#">Saas Cloud</a>
+      <a href="#">Gadget Site</a>
+      <a href="#">Tech Company</a>
+    </div>
+  </div> 
+  <a href="#contacts">Contacts</a>
+  
+
+</div>
+
+
+
+<script>
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+</script>
+
+
+	   
+	   
+
+<div class="agency">
+
+                <h1 align="center" class="mbr-section-title mbr-fonts-style mbr-bold display-1">Tech Company</h1>
+                <h2 align="center" class="mbr-section-subtitle mbr-fonts-style mbr-pt-3 display-5">Web Page Design Template</h2>
+			
+				
+				<h4 align="center" class="creat2">We are a team of cutting-edge specialists providing high - high quality, </h4>
+				<h4 align="center" class="creat2">prompt, value-added solutions to our customers. Our success is attained </h4>
+				<h4 align="center" class="creat2">through sincerity in thought, word and activity towards our customers,</h4>
+				<h4 align="center" class="creat2">fellow workers, neighborhoods and suppliers. Whould you like to try web </h4>
+				<h4 align="center" class="creat2">Page Design Template? </h4>   
+<p> <button align="center" class="btn1">READ MORE</button><button align="center" class="btn2">CONTACT US</button></p>		
+		
+            </div>
+        </div>
+    </div>
+<div class="who"><FONT COLOR="black" size="5"><h1 >Innovative Technology</h1></FONT>
+ </div>
+ <div class="111">
+<div class="bent">
+<p>Technological advancement is an extended idea of technology.</p>
+<p> While technology is a rather-well specified concept.</p>
+</div>
+<div class ="creat">
+The effective exploitation of originalities is vital to a service being able to improve its procedures, bring new as well as improved products and services to market, boost its efficiency and also, most notably, enhance its productivity. Would you like to try Web Page Design Template?
+</div></div>
+
+<div class="creat1"> While technology is a rather-well specified concept, it has a wide definition to lots of people, and also particularly numerous understanding in the academic and also service world. Web Page Design Template contains all you need for the successful site creation.</div>
+<div  class="img1"><img src="http://bayanbox.ir/preview/7007617232693839039/iphone6-camera-wallpaper.jpg"></div>
+
+
+
+<div class="sol">
+<h1 style="text-align:center">Solutions For Your Business</h1>
+
+
+  
+  
+  
+
+<style>
+{box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;
+}
+
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+  margin-top:520px;
+}
+
+.btn5 {background: teal  ;
+color:white;
+}
+
+.btn6 {background: #333333  ;
+color:white;
+}
+
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+</style>
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 3</div>
+  <img src="https://mobirise.com/extensions/techm4/assets/images/mbr-9.jpg" style="width:100%">
+  <div class="text"><h1>Innovative Technology</h1>
+    <p>Development, in addition to modern-day technology, work together - that basically do without specifying. Nevertheless, it holds true in manner ins which might stun you.</p>
+    <p> <button align="center" class="btn5">READ MORE</button><button align="center" class="btn6">CONTACT US</button></p></div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 3</div>
+  <img src="https://mobirise.com/extensions/techm4/assets/images/background110.jpg" style="width:100%">
+  <div class="text"><h1>Solutions For Your Business
+</h1>
+    <p>The effective exploitation of originalities is vital to a service being able to improve its procedures, bring new as well as improved products and services to market.</p>
+    <p> <button align="center" class="btn5">READ MORE</button></p>
+  </div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 3</div>
+  <img src="https://mobirise.com/extensions/techm4/assets/images/mbr-3.jpg" style="width:100%">
+  <div class="text"><h1>Multifunctional</h1>
+    <p>The effective exploitation of originalities is important to a service being able to enhance its treatments, bring new as well as improved products and services to market.</p>
+    <p> <button align="center" class="btn5">READ MORE</button><button align="center" class="btn6">GET STARTED</button></p></div>
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">❮</a>
+<a class="next" onclick="plusSlides(1)">❯</a>
+
+</div>
+
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div>
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+
+<table>
+
+  <tbody>
+  <table border="1" cellspacing="0" cellpadding="15" width="90%" height="130">
+  <style>
+   TABLE {
+    background: #ADD8E6;
+    border: 5px double #000;
+margin: auto;	
+   }
+   TD, TH {
+    padding: 5px; 
+    border: 1px solid #fff; }
+  </style>
+    <tr>
+      <th>Features</th>
+      <th>Basic</th>
+      <th>Regular</th>
+	  <th>Premium</th>
+    </tr>
+    <tr>
+      <td>Active community</td>
+      <td>60%</td>
+      <td>70%</td>
+	  <td>100%</td>
+    </tr>
+    <tr>
+      <td>Innovative Ideas</td>
+      <td>-</td>
+      <td>30%</td>
+	  <td>100%</td>
+    </tr>
+    <tr>
+      <td>Modern Technologies</td>
+      <td>70%</td>
+      <td>80%</td>
+	  <td>100%</td>
+    </tr>
+	<tr>
+      <td>Multifunctional</td>
+      <td>50%</td>
+      <td>60%</td>
+	  <td>100%</td>
+    </tr>
+	<tr>
+      <td>Optimal Solutions</td>
+      <td>-</td>
+      <td>-</td>
+	  <td>100%</td>
+    </tr>
+	
+  </tbody>
+</table>
+
+<h1> <p style="text-align:center">Meet Our Amazing Clients</p></h1>
+<h3> <p style="text-align:center">Meet our stunning clients, with which we collaborate for several years</p></h3>
+<div  class="img"><img src="https://mobirise.com/extensions/techm4/assets/images/1.png"></div>
+<div  class="img"><img src="https://mobirise.com/extensions/techm4/assets/images/2.png"></div>
+<div  class="img"><img src="https://mobirise.com/extensions/techm4/assets/images/3.png"></div>
+<div  class="img"><img src="https://mobirise.com/extensions/techm4/assets/images/4.png"></div>
+
+<div  class="img"><img src="https://mobirise.com/extensions/techm4/assets/images/5.png"></div>
+<div  class="img"><img src="https://mobirise.com/extensions/techm4/assets/images/1.png"></div>
+<div  class="img"><img src="https://mobirise.com/extensions/techm4/assets/images/2.png"></div>
+<div  class="img"><img src="https://mobirise.com/extensions/techm4/assets/images/3.png"></div>
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.accordion {
+    background-color: none;
+    color: teal;
+    cursor: pointer;
+    padding: 28px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 25px;
+    transition: 0.4s;
+}
+
+.active, .accordion:hover {
+    background-color: lightblue; 
+}
+
+.panel {
+    padding: 0 18px;
+    display: none;
+    background-color: white;
+    overflow: hidden;
+    color: gray;
+}
+.creat8 {
+margin-top:1300px;
+color: teal;
+}
+</style>
+
+<body>
+
+<h1 align="center" class="creat8">Questions and Answers</p></h1>
+
+<button class="accordion">What technologies do we use?</button>
+<div class="panel">
+  <p>Modern technology is altering at a startling rate nowadays. One of the things that web designers and also internet designers are expected to do in order to work far better is to stay up to date with all the modifications as and also when they occur. This is essential in order to develop projects that are relevant and appropriate in the altering times. We're using only the latest technologies.</p>
+</div>
+
+<button class="accordion">Whe we have the largest community?</button>
+<div class="panel">
+  <p>Location advertising and marketing is a strategy to engage a target audience in an active, non-intrusive prospect as well as consumer conversation. Whereas marketing and advertising communication strategies such as advertising, promotion, Public Relations, as well as sales all focus on obtaining clients, Neighborhood Marketing and advertising focuses on the regarded requirements of existing clients. We are the largest community because we listen our cliesnts and trying o help us.</p>
+</div>
+
+<button class="accordion">How we achieve multifunctionality?</button>
+<div class="panel">
+  <p>Multifunctionality is the mix of different residential properties in one material so as to make it suitable for the usage in applications in which various loading conditions must be sustained. We are following the latest trands and asking people of what they want.</p>
+</div>
+<button class="accordion">Why work with us better?</button>
+<div class="panel">
+  <p>We work better because we pay a lot of attention to our clients wishes, use the latest technologies and work with feedbacks,trying to improve the work.</p>
+</div>
+
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+    acc[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var panel = this.nextElementSibling;
+        if (panel.style.display === "block") {
+            panel.style.display = "none";
+        } else {
+            panel.style.display = "block";
+        }
+    });
+}
+</script>
+
+</body>
+
+
+
+
+
+<style>
+
+.season{
+  width: 100%;
+  height: 100vh;
+  
+  background-size: cover;
+}
+
+.formpt {
+  background: #e1ddf3;
+  position: bottom;
+  top: 50%;
+  left: 0%;
+  transform: translate(50%,-50%);
+  max-width: 1063px;
+  margin-top:  250px;
+  width: 50%;
+  height: auto;
+  border-radius: 10px;
+  padding: 17px 28px 17px 0;
+  box-shadow: 0px 0px 48px #1a1342;
+  border: 2px solid #a79f9f;
+  
+}
+
+.formpt .appp {
+  font-size: 29px;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+  color: #47424a;
+  margin-bottom: 28px;
+  
+}
+
+.abc{
+  margin-bottom: 35px;
+  position: relative;
+  
+}
+
+.abc .input {
+  width: 100%;
+  padding: 15px;
+  padding-left: 15px;
+  font-size: 18px;
+  text-align: center;
+  border: transparent;
+  color: #f3efef;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  background: darkgray;
+  box-shadow: inset 0 0 5px #1d1933;
+  outline: none;
+  
+}
+
+
+
+.abc:before{
+  content: "";
+  position: absolute;
+  
+  top: 5px;
+  left: 68px;
+  width: 2px;
+  height: 79%;
+  background: #38323e;
+}
+
+.comp {
+  width: 198px;
+  background: pink;
+  color: infinity;
+  margin: 0 auto;
+  text-align: center;
+  border-radius: 4px;
+  padding: 11px;
+  box-shadow: 0px 2px 2px #1c1738;
+  
+}
+
+.comp a{
+  color: #eeedef;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 25px;
+}
+
+.abc .fas{
+  position: absolute;
+  top: 17px;
+  left: 34px;
+  font-size: 19px;
+  color: #fff;
+}
+
+::-webkit-input-placeholder {
+  
+  color: #eeedef;
+}
+::-moz-placeholder {
+  
+  color: #eeedef;
+}
+:-ms-input-placeholder {
+ 
+  color: #eeedef;
+}
+</style>
+
+<div class="season">
+  <div class="formpt">
+  <div class="appp">
+  Get In Touch With Us  
+  </div>
+  <div class="abc fname">
+  <input type="text" class="input" placeholder="Full Name">
+  <i class="fas fa-user"></i>
+  </div>
+  <div class="abc ftname">
+  <input type="text" class="input" placeholder=" First Name">
+  <i class="fas fa-at"></i>
+  </div>
+  <div class="abc mail">
+  <input type="password" class="input" placeholder="Email">
+  <i class="fas fa-key"></i>
+  </div>
+  <div class="comp">
+  <a href="#">SEND  
+</a>
+  </div>
+  </div>
+</div>
+
+
+</html>
+
+
